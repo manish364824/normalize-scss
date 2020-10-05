@@ -1,16 +1,9 @@
 # Configuration options are documented at:
 # http://docs.travis-ci.com/user/languages/javascript-with-nodejs/
 sudo: false
-language: python
 arch:
  - amd64
  - ppc64le
- 
-python:
-  - '2.7'
-  - '3.3'
-  - '3.4'
- 
 language: node_js
 node_js:
   - '4'
